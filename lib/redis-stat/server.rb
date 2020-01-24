@@ -5,8 +5,8 @@ require 'set'
 
 class RedisStat
 class Server < Sinatra::Base
-  HISTORY_LENGTH  = 50
-  STAT_TABLE_ROWS = 10
+  HISTORY_LENGTH  = 120
+  STAT_TABLE_ROWS = 60
 
   configure do
     if RUBY_PLATFORM == 'java'

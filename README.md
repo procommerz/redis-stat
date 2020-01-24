@@ -1,5 +1,11 @@
 # redis-stat
 
+Farmy specific launch line:
+
+$ ./bin/redis-stat 10.0.0.1:6379 10.0.0.2:6379 localhost:6379 3 --daemon --server=6390
+
+----
+
 _redis-stat_ is a simple Redis monitoring tool written in Ruby.
 
 It is based on [INFO](http://redis.io/commands/info) command of Redis,
